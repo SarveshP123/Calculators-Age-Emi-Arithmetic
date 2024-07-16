@@ -1,0 +1,63 @@
+.background{
+    height:90vh!important;
+    background-color:  #F7C5CC!important; 
+    background: linear-gradient(to bottom, #CC313D, #feb47b);
+    animation: fadeIn 2s ease-in-out
+}   
+.heading{
+    color:#CC313D !important;
+    text-align: center !important;
+    text-shadow: 1px 1px black !important;
+}
+.box{
+    background-color:grey !important;
+    color:white !important;
+    border:none !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    border-radius: 30px !important;
+    font-weight: 600;
+}
+.button{
+    border-radius: 30px !important;
+    background-color:#CC313D !important;
+    border:none !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+.enter{
+    font-weight: 600 !important;
+   
+}
+.card1{
+    margin-top: 230px !important;
+    height: 250px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.age{
+    font-style: initial !important;
+    font-weight: 700 !important;
+}
+.row{
+    margin-top: 30px !important;
+}
+@media only screen and (max-width: 768px) {
+    .background{
+        height:100vh!important;
+        background-color:  #F7C5CC!important; 
+        background: linear-gradient(to bottom, #CC313D, #feb47b);
+        animation: fadeIn 2s ease-in-out
+    } 
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

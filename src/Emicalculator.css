@@ -1,0 +1,57 @@
+.background1{
+    background: linear-gradient(45deg, red, rgb(0, 0, 0), green, rgb(0, 0, 0));
+    height: 100vh; 
+}
+.emi{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+.emihead{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   font-family: 'Comic Sans MS', sans-serif;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.input{
+    display: flex;
+    margin-top: 50px;
+}
+.card1{
+    height:100vh;
+        height: 100vh;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.10s ease;
+      }
+      .card1:hover {
+        transform: scale(1.05);
+      }
+ 
+.button-gradient {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #000000, #ff0000);
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left:200px;
+  }
+  .button-gradient:hover {
+    background: linear-gradient( to right, #ff7e5f, #feb47b);
+  }
